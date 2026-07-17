@@ -1,0 +1,9 @@
+# Tipy zviditelneni 513
+> Moderní grilovací průvodce se sídlem v městě Plzeň, Plzeňský.
+
+## Obsah webu
+- [Hlavní stránka](/index.html): Přehled publikací.
+- [O nás](/about.html): Kdo jsme a co děláme.
+- [Kontakt](/contact.html): Formulář a adresa.
+## Publikace
+- [Enterprise Static Site Frameworks and Obfuscation Guide](/enterprise-static-site-frameworks-and-obfuscation-guide.html)
