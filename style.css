@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@700&family=Roboto:wght@400;600&display=swap');
+
+:root {
+    --lagxy: hsl(180, 15%, 97%);
+    --mytij: hsl(180, 15%, 100%);
+    --zdnef: hsl(180, 10%, 15%);
+    --dvghu: hsl(180, 10%, 45%);
+    --emdhr: hsl(180, 68%, 38%);
+    --negij: hsl(60, 65%, 45%);
+    --hngzu: hsl(180, 15%, 88%);
+    --rxvxm: 16px;
+    --jutgx: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --pwgtx: 'Cabinet Grotesk', sans-serif;
+    --ageni: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--lagxy);
+    color: var(--zdnef);
+    font-family: var(--ageni);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--emdhr);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--negij);
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 900px;
+    background: var(--mytij);
+    border: 1px solid var(--hngzu);
+    border-radius: var(--rxvxm);
+    padding: 40px;
+    box-shadow: var(--jutgx);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--pwgtx);
+    margin-bottom: 20px;
+    color: var(--zdnef);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--emdhr);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--hngzu);
+    border-radius: var(--rxvxm);
+    font-family: var(--ageni);
+    font-size: 1rem;
+    background: var(--lagxy);
+    color: var(--zdnef);
+}
+
+button {
+    background: var(--emdhr);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--negij);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--hngzu);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--dvghu);
+    text-align: center;
+}
